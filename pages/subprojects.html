@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Subprojects | Bionic Robotics</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/style_subprojects.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">[LOGO-LEFT]</div>
+  <h1>Bionic Robotics</h1>
+  <div class="logo">[LOGO-RIGHT]</div>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="publications.html">Publications</a>
+  </nav>
+</header>
+
+<div class="hero hero-overlay">
+  <img src="../images/hero_projects1.jpeg" alt="Subprojects Hero">
+  <div class="overlay-projects top-align">
+    <div id="subprojectGrid" class="projects-section"></div>
+  </div>
+</div>
+
+<!-- Modal for Sub-subprojects -->
+<div id="subprojectModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 id="modalSubTitle"></h2>
+    <div id="subsubprojectGrid" class="subproject-grid"></div>
+  </div>
+</div>
+
+<!-- Detail Modal -->
+<div id="detailModal" class="modal">
+  <div class="modal-content">
+    <span class="sub-close">&times;</span>
+    <h2 id="detailTitle"></h2>
+    <div id="imageSlider" class="slider">
+      <img class="slider-img" src="" alt="Slide Image">
+      <button class="slider-btn prev">&lt;</button>
+      <button class="slider-btn next">&gt;</button>
+    </div>
+    <div id="detailDescription" class="scrollable-description"></div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-contact">
+    <p>Email: ossonone_b22@ee.vjti.ac.in / aschavekar_p23@ee.vjti.ac.in</p>
+    <p>Phone: +91 8169421649 / +91 9370367075</p>
+    
+  </div>
+  <div class="footer-socials">
+    <a href="#">LinkedIn</a>
+  </div>
+</footer>
+
+<script src="../Js/subprojects.js"></script>
+</body>
+</html>
